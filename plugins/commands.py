@@ -26,7 +26,7 @@ async def start(client, message):
         subscribed_users.add(message.from_user.id)
 
     else:
-        await message.reply(f"Привет 👋👋 {message.from_user.mention()}\n Я простой бот Telegram, который может загружать из нескольких социальных сетей. В настоящее время поддерживает Instagram, TikTok, Twitter, Facebook, YouTube (музыка и шорты) и так далее....!")
+        await message.reply(f"Привет 👋👋 {message.from_user.mention()}\n Я простой бот Telegram, который может загружать из нескольких социальных сетей. В настоящее время поддерживает Instagram, TikTok")
         
 
 @Mbot.on_message(filters.command("help") & filters.incoming)
