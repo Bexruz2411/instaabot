@@ -38,4 +38,4 @@ async def link_handler(Mbot, message):
             if DUMP_GROUP:
                await dump_file.copy(DUMP_GROUP)
             await m.delete()
-        await message.reply("Посетите @FilmPrimiere\n")
+        await message.reply("Посетите https://t.me/FilmPrimiere\n")
