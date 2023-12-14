@@ -115,4 +115,4 @@ async def link_handler(Mbot, message):
             await m.delete()
             if 'downfile' in locals():
                 os.remove(downfile)
-            await message.reply("Посетите @FilmPrimiere\n")
+            await message.reply("Посетите https://t.me/FilmPrimiere\n")
